@@ -11,7 +11,7 @@ import backtype.storm.tuple.Fields;
 
 public class PersistentWordCount {
 	private static final String WORD_SPOUT = "WORD_SPOUT";
-	private static final String COUNT_BOLT ="COUNT_BOLT";
+	private static final String COUNT_BOLT = "COUNT_BOLT";
 	private static final String CASSANDRA_BOLT = "WORD_COUNT_CASSANDRA_BOLT";
 	
 	public static void main(String[] args) throws Exception{
